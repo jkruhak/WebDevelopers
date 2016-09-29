@@ -1,9 +1,24 @@
+.navbar {
+	background-color: rgb(122, 160, 208);
+	border-radius: 0;
+	
+}
+
+.navbar-default .navbar-brand, .navbar-default .navbar-brand a:hover {
+	color: #000; 
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: #000; 
+}
+
 #main-content {
-	background-color: gray;
+	background-color: rgb(122, 160, 208);
 	height: 1000px;
 }
 
 #main-content p {
+	background-color: rgb(122, 160, 208);
 	padding-top: 5px;
 	padding-left: 35px;
 	padding-right: 35px;
