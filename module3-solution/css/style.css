@@ -1,1 +1,28 @@
-ECHO is on.
+#main-content {
+	background-color: gray;
+	height: 1000px;
+}
+
+#main-content p {
+	padding-top: 5px;
+	padding-left: 35px;
+	padding-right: 35px;
+}
+
+h3 {
+	padding-top: 20px;
+	font-weight: bold;
+}
+
+#menu-list {
+	text-transform: uppercase;
+}
+
+.divider {
+  height: 1px;
+  width:100%;
+  display:block; 
+  margin: 5px 0;
+  overflow: hidden;
+  background-color: #e5e5e5;
+}
