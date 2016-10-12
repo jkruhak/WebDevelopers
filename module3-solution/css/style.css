@@ -12,14 +12,27 @@
 	color: #000; 
 }
 
-#main-content {
+.main-content {
 	background-color: rgb(122, 160, 208);
-	height: 1000px;
 }
 
-#main-content p {
+.main-content p {
 	background-color: rgb(122, 160, 208);
-	padding-top: 5px;
+	padding: 5px 35px 5px 35px;
+}
+
+p {
+    margin: -10px 0 10px;
+}
+
+p > a:link, p > a:visited, p > a:hover {
+	color: white;
+}
+
+.main-content span {
+	display: block;
+	background-color: rgb(122, 160, 208);
+	padding-top: 12px;
 	padding-left: 35px;
 	padding-right: 35px;
 }
